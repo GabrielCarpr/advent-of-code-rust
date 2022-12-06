@@ -5,6 +5,7 @@ mod one;
 mod two;
 mod three;
 mod four;
+mod five;
 
 type Callback = fn() -> ();
 
@@ -14,6 +15,7 @@ fn main() {
     days.insert(2, two::two);
     days.insert(3, three::three);
     days.insert(4, four::four);
+    days.insert(5, five::five);
 
     let sel = &args().collect::<Vec<String>>()[1];
     let index = sel.parse::<u8>().unwrap();
