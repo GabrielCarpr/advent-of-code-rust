@@ -7,3 +7,4 @@ edition = "2018"
 
 [dependencies]
 regex = "1.7.0"
+substring = "1.4.5"
